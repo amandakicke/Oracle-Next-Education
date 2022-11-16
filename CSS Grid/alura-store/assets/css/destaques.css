@@ -1,10 +1,23 @@
-.destaques {   
-     
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.destaques {        
     display: grid;
     gap: .2rem;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 33.33% 33.33% 33.33%;
     height: calc(100vh - 50px);
+}
+
+.destaques__titulo {
+    background: rgba(0, 0, 0, .5);
+    color: #fdfdfd;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
 }
 
 .destaques__principal {
@@ -66,17 +79,4 @@
     color: inherit;
 }
 
-.destaques__titulo {
-    background: rgba(0, 0, 0, .5);
-    color: #fdfdfd;
-    padding: .6rem;
-    text-align: center;
-    width: 100%;
-}
-
-.caixa {
-    align-items: flex-end;
-    display: flex;
-    justify-content: center;
-}
 
